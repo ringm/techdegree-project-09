@@ -1,3 +1,54 @@
-h1 {
+h1, h2 {
     font-family: 'Rubik', sans-serif;
 }
+
+header {
+  max-height: 720px;
+}
+
+.icon-red {
+  fill: red;
+}
+
+.icon {
+  height: 16px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .img-sm {
+    height: 250px;
+  }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .img-1-md {
+    height: 650px;
+  }
+  .img-2-md {
+    height: 325px;
+  }
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .img-1-lg {
+    height: 820px;
+  }
+  .img-2-lg {
+    height: 410px;
+  }
+  .img-3-lg {
+    height: 205px;
+  }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
