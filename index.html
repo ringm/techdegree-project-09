@@ -26,16 +26,17 @@
       </nav>
 
       <!-- WELCOME! -->
-      <header class="card text-white border-0">
-        <div class="embed-responsive embed-responsive-16by9">
-          <video class="card-img embed-responsive-item" autoplay loop muted>
-              <source src="video/typing.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="card-img-overlay d-flex align-items-center flex-column mt-5">
-          <h1 class="card-title border border-white d-inline-block text-center pr-3 pl-3 pt-2 pb-2">WELCOME!</h1>
-          <p class="card-text text-center">My name is Martin Ring, I'm a front-end developer from Buenos Aires.</p>
-        </div>
+
+      <header class="section position-relative d-flex align-items-center justify-content-center overflow-hidden">
+          <div class="d-flex flex-column text-white text-center">
+            <h1 class="h1 pr-3 pl-3 pt-2 pb-2 ">WELCOME!</h1>
+            <p>My name is Martin Ring, I'm a front-end developer from Buenos Aires.</p>
+          </div>
+          <div class="position-absolute">
+              <video autoplay loop muted>
+                  <source src="video/typing.mp4" type="video/mp4">
+              </video>
+          </div>
       </header>
 
       <!-- ABOUT -->
@@ -51,36 +52,39 @@
       </div>
 
       <!-- WORK -->
-      <div class="container mb-5">
+      <div id="portfolio" class="container mb-5">
         <div class="row">
-          <div class="card text-white border-0 mb-4 rounded-0 col-12">
-            <div class="img-sm img-1-md img-1-lg overflow-hidden">
-              <img src="img/hoojobs-cover.jpg" class="card-img" alt="hoojobs">
-            </div>
-            <div class="card-img-overlay text-center align-items-center">
-              <h5 class="card-title">PROJECT 01</h5>
+          <div class="project img-sm img-1-md img-1-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden">
+            <div class="p-description bg-black d-flex flex-column text-white text-center invisible">
+              <h1 class="h1">PROJECT 01</h1>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
+            </div>
+            <div class="position-absolute"><a href="#" target="_blank">
+              <img src="img/hoojobs-cover.jpg" class="card-img" alt="hoojobs">
+            </a>
             </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="card text-white border-0 rounded-0 overflow-hidden mb-4 col-12 col-md-6">
-            <div class="img-sm img-2-md img-2-lg overflow-hidden">
+          <div class="img-sm img-2-md img-2-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden col-12 col-md-6">
+            <div class="position-absolute"><a href="#" target="_blank">
               <img src="img/sharefi.jpg" class="card-img img-fluid" alt="...">
+              </a>
             </div>
-            <div class="card-img-overlay">
+            <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h5 class="card-title">PROJECT 02</h5>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div class="card text-white border-0 rounded-0 overflow-hidden mb-4 col-12 col-md-6">
-            <div class="img-sm img-2-md img-2-lg overflow-hidden">
+          <div class="img-sm img-2-md img-2-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden col-12 col-md-6">
+            <div class="position-absolute"><a href="#" target="_blank">
               <img src="img/sharefi-2.jpg" class="card-img img-fluid" alt="...">
+              </a>
             </div>
-            <div class="card-img-overlay">
+            <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h5 class="card-title">PROJECT 03</h5>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
@@ -89,41 +93,41 @@
         </div>
 
         <div class="row">
-          <div class="card text-white border-0 rounded-0 overflow-hidden mb-4 col-12 col-md-6 col-lg-3">
-            <div class="img-sm img-2-md img-3-lg overflow-hidden">
+          <div class="img-sm img-2-md img-3-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden col-12 col-md-6 col-lg-3">
+            <div class="position-absolute">
               <img src="img/img-01.jpg" class="card-img img-fluid" alt="...">
             </div>
-            <div class="card-img-overlay">
+            <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h5 class="card-title">PROJECT 04</h5>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div class="card text-white border-0 rounded-0 overflow-hidden mb-4 col-12 col-md-6 col-lg-3">
-            <div class="img-sm img-2-md img-3-lg overflow-hidden">
+          <div class="img-sm img-2-md img-3-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden col-12 col-md-6 col-lg-3">
+            <div class="position-absolute">
               <img src="img/img-01.jpg" class="card-img img-fluid" alt="...">
             </div>
-            <div class="card-img-overlay">
+            <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h5 class="card-title">PROJECT 05</h5>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div class="card text-white border-0 rounded-0 overflow-hidden mb-4 col-12 col-md-6 col-lg-3">
-            <div class="img-sm img-2-md img-3-lg overflow-hidden">
+          <div class="img-sm img-2-md img-3-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden col-12 col-md-6 col-lg-3">
+            <div class="position-absolute">
               <img src="img/img-01.jpg" class="card-img img-fluid" alt="...">
             </div>
-            <div class="card-img-overlay">
+            <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h5 class="card-title">PROJECT 06</h5>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
             </div>
           </div>
-          <div class="card text-white border-0 rounded-0 overflow-hidden mb-4 col-12 col-md-6 col-lg-3">
-            <div class="img-sm img-2-md img-3-lg overflow-hidden">
+          <div class="img-sm img-2-md img-3-lg mb-2 col-12 position-relative d-flex align-items-center justify-content-center overflow-hidden col-12 col-md-6 col-lg-3">
+            <div class="position-absolute">
               <img src="img/img-01.jpg" class="card-img img-fluid" alt="...">
             </div>
-            <div class="card-img-overlay">
+            <div class="p-description bg-black d-flex flex-column text-white text-center">
               <h5 class="card-title">PROJECT 07</h5>
               <p class="card-text">This is a wider card with supporting text.</p>
               <p class="card-text">Last updated 3 mins ago</p>
@@ -138,8 +142,8 @@
         <h2 class="text-center text-white">LET'S WORK TOGETHER!</h2>
         <p class="text-center text-white">the digital landscape is constantly evolving; just when you think you’ve gotten the hang of it, you realise that things are a-changing once again. and we are here to help.</p>
         <form>
-          <div class="d-flex">
-            <div class="col-6">
+          <div class="d-flex flex-column flex-md-row">
+            <div class="col-12 col-md-6">
                 <label class="text-white" for="inputName">Your Name</label>
                 <input type="text" class="form-control rounded-0 bg-black">
                 <label class="text-white mt-2" for="inputEmail">Your Email</label>
@@ -149,7 +153,7 @@
                 <label class="text-white mt-2" for="inputFindMe">How did you find me?</label>
                 <input type="text" class="form-control rounded-0 bg-black">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <label class="text-white" for="inputOrganisation">Your Organisation</label>
                 <input type="text" class="form-control rounded-0 bg-black">
                 <label class="text-white mt-2" for="textArea">Your Message</label>
@@ -187,16 +191,16 @@
             <div class="col-md-6 col-lg-7 text-center text-md-right">
 
               <!--Github -->
-              <a class="li-ic">
+              <a href="#" target="_blank" class="li-ic">
                 <img src="icon/github-icon-w.svg" alt="github" class="icon nav-item">
               </a>
               <!--Linkedin -->
-              <a class="li-ic">
-                <img src="icon/linkedin-icon-w.svg" alt="github" class="icon nav-item">
+              <a href="#" target="_blank" class="li-ic">
+                <img src="icon/linkedin-icon-w.svg" alt="github" class="icon nav-item ml-5">
               </a>
               <!--Instagram-->
-              <a class="ins-ic">
-                <img src="icon/insta-icon-w.svg" alt="github" class="icon nav-item">
+              <a href="#" target="_blank" class="ins-ic">
+                <img src="icon/insta-icon-w.svg" alt="github" class="icon nav-item ml-5">
               </a>
 
             </div>
@@ -212,6 +216,7 @@
 
     </div>
     <!-- Optional JavaScript -->
+    <script src="js/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
