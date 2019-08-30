@@ -22,23 +22,23 @@ header {
 /*// No media query for `xs` since this is the default in Bootstrap*/
 
 /*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .img-sm {
     height: 250px;
   }
-}
+}*/
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .img-1-md {
     height: 650px;
   }
   .img-2-md {
     height: 325px;
   }
-}
+}*/
 /*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .img-1-lg {
     height: 820px;
   }
@@ -48,7 +48,7 @@ header {
   .img-3-lg {
     height: 205px;
   }
-}
+}*/
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+/*@media (min-width: 1200px) { ... }*/
