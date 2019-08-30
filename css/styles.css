@@ -1,13 +1,13 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 h1, h2 {
     font-family: 'Rubik', sans-serif;
 }
 
 header {
   max-height: 720px;
-}
-
-.icon-red {
-  fill: red;
 }
 
 .icon {
@@ -18,29 +18,66 @@ header {
   background-color: black;
 }
 
-/*// Extra small devices (portrait phones, less than 576px)*/
-/*// No media query for `xs` since this is the default in Bootstrap*/
+.img-sm {
+  height: 250px;
+}
 
-/*// Small devices (landscape phones, 576px and up)*/
-/*@media (min-width: 576px) {
-  .img-sm {
-    height: 250px;
-  }
-}*/
+.p-description {
+  z-index: 1;
+  opacity: 0;
+}
 
-/*// Medium devices (tablets, 768px and up)*/
-/*@media (min-width: 768px) {
+.visible {
+    opacity: 1;
+    transition: .5s;
+}
+
+.invisible {
+  opacity: 0;
+  transition: .5s;
+}
+
+.card-img {
+  transform: scale(1);
+  transition: .5s;
+}
+
+.card-img:hover {
+  transform: scale(1.02);
+  transition: .5s;
+}
+
+.w-100 {
+  width: 95%;
+}
+/*----------------------------------
+VIDEO BANNER
+----------------------------------*/
+.section {
+  height: 75vh;
+}
+
+.section h1,
+.section p {
+  z-index: 1;
+}
+
+/*----------------------------------
+MEDIA QUERIES
+----------------------------------*/
+
+@media (min-width: 768px) {
   .img-1-md {
-    height: 650px;
+    height: 450px;
   }
   .img-2-md {
-    height: 325px;
+    height: 310px;
   }
-}*/
-/*// Large devices (desktops, 992px and up)*/
-/*@media (min-width: 992px) {
+}
+
+@media (min-width: 992px) {
   .img-1-lg {
-    height: 820px;
+    height: 600px;
   }
   .img-2-lg {
     height: 410px;
@@ -48,7 +85,4 @@ header {
   .img-3-lg {
     height: 205px;
   }
-}*/
-
-/*// Extra large devices (large desktops, 1200px and up)*/
-/*@media (min-width: 1200px) { ... }*/
+}
