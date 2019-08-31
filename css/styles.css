@@ -25,31 +25,27 @@ header {
 .p-description {
   z-index: 1;
   opacity: 0;
+  transition: .3s;
+  background-color:rgba(0,0,0,0.75);
 }
 
 .visible {
     opacity: 1;
+    padding: 5%;
     transition: .5s;
 }
 
-.invisible {
-  opacity: 0;
-  transition: .5s;
-}
-
 .card-img {
+  max-width: 100%;
   transform: scale(1);
   transition: .5s;
 }
 
-.card-img:hover {
-  transform: scale(1.02);
+.scale {
+  transform: scale(1.05);
   transition: .5s;
 }
 
-.w-100 {
-  width: 95%;
-}
 /*----------------------------------
 VIDEO BANNER
 ----------------------------------*/
